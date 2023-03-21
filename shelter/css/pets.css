@@ -1,0 +1,110 @@
+.pets {
+  background: #f6f6f6;
+}
+.pets .container {
+  padding: 80px 40px 100px;
+}
+.pets button {
+  font-family: "Georgia";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 130%;
+  letter-spacing: 0.06em;
+  color: #292929;
+}
+.pets h3 {
+  text-align: center;
+
+  font-family: "Georgia";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 35px;
+  line-height: 130%;
+  letter-spacing: 0.06em;
+  color: #545454;
+  margin-bottom: 60px;
+}
+.pet_cards {
+  position: relative;
+  display: flex;
+  gap: 90px;
+  padding-bottom: 63px;
+}
+.pet_card_item {
+  margin: -7px -16px 0 16px;
+  text-align: center;
+  width: 270px;
+  height: 435px;
+  background: #fafafa;
+  border-radius: 9px;
+}
+.pet_card_item img {
+  width: 270px;
+  height: 270px;
+  margin-bottom: 30px;
+}
+.pet_card_item h4 {
+  font-family: "Georgia";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
+  letter-spacing: 0.06em;
+  color: #545454;
+  margin-bottom: 30px;
+}
+.pet_card_item button {
+  cursor: pointer;
+  width: 187px;
+  height: 52px;
+  border-radius: 100px;
+  border: 3px solid #fddcc4;
+}
+.pet_card_item button:hover {
+  background: #fddcc4;
+}
+
+.pets_btn {
+  text-align: center;
+}
+.pets_btn button {
+  text-align: center;
+  cursor: pointer;
+  border: none;
+  width: 261px;
+  height: 52px;
+  background: #f1cdb3;
+  border-radius: 100px;
+}
+.pets_btn button:hover {
+  background: #fddcc4;
+}
+
+.slider button {
+  position: absolute;
+  background: transparent;
+  width: 52px;
+  height: 52px;
+  border-radius: 100%;
+  border: 2px solid #f1cdb3;
+  cursor: pointer;
+  top: 38%;
+
+  transform: "translate(-50%,-50%)";
+}
+.slider button:hover {
+  border: solid #fddcc4;
+  background-color: #fddcc4;
+}
+.slider button:first-child {
+  background-image: url(../assets/img/Arrow.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.slider button:last-child {
+  background-image: url(../assets/img/Arrow1.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  right: 0;
+}

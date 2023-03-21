@@ -1,10 +1,12 @@
 @import url(./header.css);
 @import url(./notOnly.css);
 @import url(./about_pets.css);
+@import url(./pets.css);
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  transition: 0.5s;
 }
 a {
   text-decoration: none;
