@@ -3,6 +3,7 @@
 @import url(./about_pets.css);
 @import url(./pets.css);
 @import url(./help.css);
+@import url(./donation.css);
 * {
   box-sizing: border-box;
   margin: 0;
@@ -17,4 +18,20 @@ a {
   width: 1280px;
   margin: 0 auto;
   position: relative;
+}
+h3 {
+  font-family: "Georgia";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 35px;
+  line-height: 130%;
+  letter-spacing: 0.06em;
+}
+h5 {
+  font-family: "Georgia";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 110%;
+  letter-spacing: 0.06em;
 }
