@@ -2,6 +2,7 @@
 @import url(./notOnly.css);
 @import url(./about_pets.css);
 @import url(./pets.css);
+@import url(./help.css);
 * {
   box-sizing: border-box;
   margin: 0;

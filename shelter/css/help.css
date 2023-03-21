@@ -1,0 +1,40 @@
+.help .container {
+  padding: 80px 127px 100px;
+}
+.help h3 {
+  text-align: center;
+  margin-bottom: 60px;
+  font-family: "Georgia";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 35px;
+  line-height: 130%;
+  letter-spacing: 0.06em;
+  color: #545454;
+}
+.help-list h4 {
+  font-family: "Georgia";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 115%;
+  letter-spacing: 0.06em;
+  color: #545454;
+  margin-top: 28px;
+}
+.help-list {
+  width: 1026px;
+}
+.row1 {
+  white-space: nowrap;
+  text-align: center;
+  display: flex;
+  gap: 120px;
+  margin-bottom: 57px;
+}
+.row2 {
+  text-align: center;
+  margin-left: 84px;
+  display: flex;
+  gap: 120px;
+}
