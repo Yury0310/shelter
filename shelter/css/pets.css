@@ -54,6 +54,7 @@
   height: 52px;
   border-radius: 100px;
   border: 3px solid #fddcc4;
+  background: transparent;
 }
 .pet_card_item button:hover {
   background: #fddcc4;
