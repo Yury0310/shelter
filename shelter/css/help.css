@@ -3,7 +3,7 @@
 }
 .help h3 {
   text-align: center;
-  margin-bottom: 60px;
+  /* margin-bottom: 60px; */
   font-family: "Georgia";
   font-style: normal;
   font-weight: 400;
@@ -20,21 +20,20 @@
   line-height: 115%;
   letter-spacing: 0.06em;
   color: #545454;
-  margin-top: 28px;
+  /* padding-top: 28px; */
 }
 .help-list {
-  width: 1026px;
-}
-.row1 {
-  white-space: nowrap;
   text-align: center;
+  width: 1029px;
   display: flex;
-  gap: 120px;
-  margin-bottom: 57px;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding-top: 60px;
+  gap: 55px 120px;
 }
-.row2 {
-  text-align: center;
-  margin-left: 84px;
-  display: flex;
-  gap: 120px;
+.list_item {
+  height: 113px;
+}
+.list_item img {
+  padding-bottom: 25px;
 }
