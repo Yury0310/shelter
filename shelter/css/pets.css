@@ -26,6 +26,7 @@
   padding-bottom: 63px;
 }
 .pet_card_item {
+  cursor: pointer;
   margin: -7px -16px 0 16px;
   text-align: center;
   width: 270px;
@@ -33,11 +34,15 @@
   background: #fafafa;
   border-radius: 9px;
 }
+.pet_card_item:hover {
+  transform: scale(1.1);
+}
 .pet_card_item img {
   width: 270px;
   height: 270px;
   margin-bottom: 30px;
 }
+
 .pet_card_item h4 {
   font-family: "Georgia";
   font-style: normal;
