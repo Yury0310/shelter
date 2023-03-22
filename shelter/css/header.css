@@ -49,3 +49,6 @@
 .navigation a:hover {
   color: #fafafa;
 }
+.navigation a:active {
+  border-bottom: 3px solid #f1cdb3;
+}
