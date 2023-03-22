@@ -10,6 +10,7 @@
   margin: 0;
   padding: 0;
   transition: 0.5s;
+  scroll-behavior: smooth;
 }
 a {
   text-decoration: none;
