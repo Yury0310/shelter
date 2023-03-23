@@ -12,6 +12,12 @@
   transition: 0.5s;
   scroll-behavior: smooth;
 }
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  /* height: 100vh; */
+}
 a {
   text-decoration: none;
 }

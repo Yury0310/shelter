@@ -13,6 +13,15 @@
   letter-spacing: 0.06em;
   color: #292929;
 }
+.pet_cards button {
+  font-family: "Georgia";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 130%;
+  letter-spacing: 0.06em;
+  color: #292929;
+}
 .pets h3 {
   text-align: center;
 
@@ -35,7 +44,7 @@
   border-radius: 9px;
 }
 .pet_card_item:hover {
-  transform: scale(1.1);
+  transform: scale(1.05);
 }
 .pet_card_item img {
   width: 270px;
