@@ -44,7 +44,7 @@
   border-radius: 9px;
 }
 .pet_card_item:hover {
-  transform: scale(1.05);
+  box-shadow: 0 0px 25px rgba(0, 0, 0, 0.5);
 }
 .pet_card_item img {
   width: 270px;
@@ -75,18 +75,30 @@
 }
 
 .pets_btn {
-  text-align: center;
+  display: flex;
+  justify-content: center;
+  font-family: "Georgia";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 130%;
+  letter-spacing: 0.06em;
 }
-.pets_btn button {
-  text-align: center;
+.pets_btn a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #292929;
   cursor: pointer;
   border: none;
   width: 261px;
   height: 52px;
   background: #f1cdb3;
   border-radius: 100px;
+
+  outline: none;
 }
-.pets_btn button:hover {
+.pets_btn a:hover {
   background: #fddcc4;
 }
 

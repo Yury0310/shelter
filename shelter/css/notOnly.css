@@ -32,7 +32,12 @@
   color: #cdcdcd;
   margin-bottom: 42px;
 }
-.not_only_descr button {
+
+.not_only_descr a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #292929;
   outline: none;
   border: none;
   cursor: pointer;
