@@ -1,0 +1,61 @@
+.not_only {
+  padding-top: 90px;
+
+  background: url(../assets/img/start-screen-background.png) no-repeat;
+  background-size: cover;
+  height: 908px;
+}
+.not_only .container {
+  display: flex;
+  gap: 42px;
+  padding-top: 90px;
+}
+.not_only_descr {
+  margin-top: 163px;
+  height: 322px;
+}
+.not_only_descr h2 {
+  font-family: "Georgia";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 44px;
+  line-height: 130%;
+  color: #ffffff;
+  margin-bottom: 42px;
+}
+.not_only_descr p {
+  font-family: "Arial";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 160%;
+  color: #cdcdcd;
+  margin-bottom: 42px;
+}
+
+.not_only_descr a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #292929;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  background: #f1cdb3;
+  border-radius: 100px;
+  width: 207px;
+  height: 52px;
+  text-align: center;
+  font-family: "Georgia";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 130%;
+  letter-spacing: 0.06em;
+}
+.not_only_descr button:hover {
+  background: #fddcc4;
+}
+.dog_img {
+  display: block;
+}

@@ -1,0 +1,36 @@
+.help .container {
+  padding: 80px 127px 100px;
+}
+.help h3 {
+  text-align: center;
+
+  color: #545454;
+}
+.help-list h4 {
+  font-family: "Georgia";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 115%;
+  letter-spacing: 0.06em;
+  color: #545454;
+}
+.help-list {
+  text-align: center;
+  width: 1029px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding-top: 60px;
+  gap: 55px 120px;
+}
+.list_item {
+  height: 113px;
+}
+.list_item img {
+  padding-bottom: 25px;
+}
+.list_item:nth-child(6) img,
+.list_item:nth-child(8) img {
+  padding-bottom: 30px;
+}

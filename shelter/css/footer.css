@@ -1,0 +1,60 @@
+.footer {
+  background: url(../assets/img/footer-gradient-background.png) no-repeat;
+  background-size: cover;
+  height: 350px;
+}
+.footer .container {
+  padding: 40px 40px 0;
+  display: flex;
+  justify-content: space-between;
+}
+.footer h3 {
+  color: #ffffff;
+}
+.footer h4 {
+  font-family: "Georgia";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 115%;
+  letter-spacing: 0.06em;
+  color: #f1cdb3;
+}
+
+.contacts {
+  margin-top: 16px;
+  display: flex;
+  flex-direction: column;
+  height: 234px;
+  justify-content: space-between;
+}
+
+.email {
+  display: flex;
+  justify-content: space-between;
+  width: 251px;
+}
+.phone {
+  display: flex;
+  justify-content: space-between;
+  width: 239px;
+}
+
+.location {
+  margin-top: 16px;
+  display: flex;
+  flex-direction: column;
+  height: 234px;
+  justify-content: space-between;
+}
+.address {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  width: 302px;
+}
+.address img {
+  text-align: center;
+  width: 22px;
+  height: 32px;
+}

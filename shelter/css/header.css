@@ -1,0 +1,55 @@
+.header {
+  position: absolute;
+  left: 0;
+  right: 0;
+}
+.header .container {
+  display: flex;
+  justify-content: space-between;
+}
+.logo h1 {
+  font-family: Georgia;
+  color: #f1cdb3;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 110%;
+  letter-spacing: 0.06em;
+}
+
+.logo p {
+  margin: 10px 0 0 5px;
+  color: #ffffff;
+  font-family: "Arial";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 15px;
+
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.1em;
+}
+.navigation {
+  display: flex;
+  align-items: center;
+}
+.navigation ul {
+  display: flex;
+  list-style-type: none;
+  gap: 35px;
+}
+
+.navigation a {
+  font-family: "Arial";
+  color: #cdcdcd;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 160%;
+}
+.navigation a:hover {
+  color: #fafafa;
+}
+.navigation li:nth-child(1) {
+  border-bottom: 3px solid #f1cdb3;
+}

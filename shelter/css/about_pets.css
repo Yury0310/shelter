@@ -1,0 +1,20 @@
+.about .container {
+  display: flex;
+  gap: 120px;
+  padding: 80px 215px 100px;
+}
+.about_descr {
+  margin-top: 14px;
+}
+
+.about_descr p {
+  margin-top: 25px;
+  width: 430px;
+  font-family: "Arial";
+  color: #4c4c4c;
+  font-size: 15px;
+  line-height: 160%;
+}
+.about_descr h3 {
+  color: #545454;
+}
