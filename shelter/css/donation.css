@@ -42,3 +42,18 @@
 .donation-descr a {
   color: #545454;
 }
+
+@media (width: 768px) {
+  .donation .container {
+    padding: 80px 131px 100px 132px;
+    flex-direction: column;
+    gap: 60px;
+    justify-content: center;
+  }
+  .donation-dog {
+    order: 2;
+  }
+  .donation-descr p {
+    width: 380px;
+  }
+}

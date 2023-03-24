@@ -18,3 +18,14 @@
 .about_descr h3 {
   color: #545454;
 }
+@media (width: 768px) {
+  .about .container {
+    padding: 80px 165px 100px;
+    flex-direction: column;
+    gap: 80px;
+    align-items: center;
+  }
+  .about_pets {
+    order: 2;
+  }
+}

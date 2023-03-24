@@ -59,3 +59,34 @@
 .dog_img {
   display: block;
 }
+
+@media (width: 768px) {
+  .not_only {
+    height: 1165px;
+  }
+  .not_only .container {
+    padding: 60px 30px 0 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+  }
+  .not_only_descr {
+    margin-top: 0;
+    margin-right: 70px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .not_only_descr h2 {
+    margin-right: 146px;
+  }
+  .dog_img {
+    margin-left: 69px;
+  }
+  .dog_img img {
+    width: 569px;
+    height: 593px;
+  }
+}

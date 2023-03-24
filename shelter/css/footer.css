@@ -58,3 +58,31 @@
   width: 22px;
   height: 32px;
 }
+.footer-dog img {
+  display: block;
+}
+@media (width: 768px) {
+  .footer {
+    height: 639px;
+  }
+  .footer .container {
+    padding: 30px 64px 0;
+    display: flex;
+    flex-wrap: wrap;
+
+    justify-content: center;
+  }
+  .footer-dog {
+    margin-top: 65px;
+  }
+  .footer-dog img {
+    display: block;
+  }
+  .contacts,
+  .location {
+    margin-top: 0;
+  }
+  .contacts {
+    margin-right: 57px;
+  }
+}

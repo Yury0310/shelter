@@ -152,3 +152,27 @@ a {
 .navigation_pets button:nth-child(5):hover {
   background-color: #f1cdb3;
 }
+@media (width: 768px) {
+  .container {
+    width: 768px;
+  }
+  .header .container {
+    padding: 30px 30px 30px;
+  }
+  .pet_cards {
+    overflow: hidden;
+    justify-content: center;
+  }
+  .main_our_pets .container {
+    padding: 80px 94px 70px;
+    gap: 30px;
+    height: 1743px;
+  }
+  .navigation_pets {
+    margin-bottom: 10px;
+  }
+  .pet_card_item:nth-child(2) {
+    margin-top: -5px;
+    margin-left: 0px;
+  }
+}
