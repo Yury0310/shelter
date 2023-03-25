@@ -35,7 +35,7 @@
   padding-bottom: 30px;
 }
 
-@media (width: 768px) {
+@media (min-width: 768px) and (max-width: 1279px) {
   .help .container {
     padding: 80px 70px 100px;
   }
@@ -56,5 +56,64 @@
   }
   .list_item img {
     padding-bottom: 30px;
+  }
+}
+@media (min-width: 320px) and (max-width: 767px) {
+  .help .container {
+    padding: 42px 10px;
+  }
+  .help-list {
+    width: 290px;
+    gap: 0 30px;
+    justify-content: start;
+    padding-top: 42px;
+    margin-left: 5px;
+  }
+
+  .list_item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 130px;
+  }
+
+  .list_item h4 {
+    font-family: "Georgia";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 110%;
+
+    text-align: center;
+    letter-spacing: 0.06em;
+  }
+  .list_item img {
+    padding-bottom: 20px;
+    width: 50px;
+  }
+  .list_item:nth-child(4) img {
+    padding-bottom: 24px;
+  }
+
+  .list_item:nth-child(7) img {
+    padding-bottom: 30px;
+  }
+  .list_item:nth-child(8) img {
+    padding-bottom: 35px;
+  }
+
+  .list_item:nth-child(1) img {
+    width: 40px;
+  }
+
+  .list_item:nth-child(5) img {
+    width: 26px;
+    padding-bottom: 28px;
+  }
+
+  .list_item:nth-child(9) img {
+    width: 47px;
+    padding-bottom: 33px;
   }
 }

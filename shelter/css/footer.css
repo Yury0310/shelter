@@ -61,7 +61,7 @@
 .footer-dog img {
   display: block;
 }
-@media (width: 768px) {
+@media (min-width: 768px) and (max-width: 1279px) {
   .footer {
     height: 639px;
   }
@@ -84,5 +84,58 @@
   }
   .contacts {
     margin-right: 57px;
+  }
+}
+@media (min-width: 320px) and (max-width: 767px) {
+  .footer {
+    height: 809px;
+  }
+  .footer .container {
+    padding: 30px 10px 0;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+
+    gap: 40px;
+    text-align: center;
+  }
+  .contacts {
+    text-justify: auto;
+    height: 208px;
+    align-items: center;
+    margin-top: 0;
+  }
+  .contacts h3 {
+    /* height: 64px; */
+
+    width: 278px;
+  }
+  .location {
+    height: 222px;
+    margin-top: 0;
+    text-align: center;
+    width: 270px;
+  }
+  .location h3 {
+    margin-left: 29px;
+  }
+  .footer-dog img {
+    width: 260px;
+  }
+  .footer br {
+    display: none;
+  }
+  .phone {
+    align-items: center;
+  }
+  .address {
+    text-align: initial;
+    width: 295px;
+    height: 46px;
+    margin-bottom: -4px;
+  }
+  .footer-dog {
+    margin-left: 20px;
   }
 }
