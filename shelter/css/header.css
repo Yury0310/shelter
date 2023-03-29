@@ -46,9 +46,14 @@
   font-weight: 400;
   font-size: 15px;
   line-height: 160%;
+  cursor: pointer;
 }
 .navigation a:hover {
-  color: #fafafa;
+  color: #ffffff;
+}
+.navigation .active {
+  color: #ffffff;
+  cursor: default;
 }
 .navigation li:nth-child(1) {
   border-bottom: 3px solid #f1cdb3;
