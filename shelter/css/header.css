@@ -51,6 +51,10 @@
   font-size: 15px;
   line-height: 160%;
 }
+.navigation .active {
+  cursor: default;
+  color: #fafafa;
+}
 .navigation a:hover {
   color: #fafafa;
 }
