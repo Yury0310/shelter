@@ -18,3 +18,46 @@
 .about_descr h3 {
   color: #545454;
 }
+@media (min-width: 768px) and (max-width: 1279px) {
+  .about .container {
+    padding: 80px 165px 100px;
+    flex-direction: column;
+    gap: 80px;
+    align-items: center;
+  }
+  .about_pets {
+    order: 2;
+  }
+}
+@media (min-width: 320px) and (max-width: 767px) {
+  .about .container {
+    padding: 42.4px 10px;
+    flex-direction: column;
+    gap: 25px;
+    align-items: center;
+  }
+  .about_descr {
+    text-align: center;
+    width: 270px;
+    height: 494px;
+    margin-top: 0;
+  }
+  .about_descr p {
+    text-align: justify;
+
+    display: block;
+    width: 270px;
+  }
+
+  .about_pets {
+    order: 2;
+  }
+  .about_pets {
+    margin-top: 17px;
+  }
+  .about_pets img {
+    display: block;
+    width: 260px;
+    height: 353.6px;
+  }
+}
