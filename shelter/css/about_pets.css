@@ -20,7 +20,7 @@
 }
 @media (min-width: 768px) and (max-width: 1279px) {
   .about .container {
-    padding: 80px 165px 100px;
+    padding: 66px 165px 100px;
     flex-direction: column;
     gap: 80px;
     align-items: center;
@@ -29,7 +29,7 @@
     order: 2;
   }
 }
-@media (min-width: 320px) and (max-width: 767px) {
+@media (min-width: 320px) and (max-width: 767.98px) {
   .about .container {
     padding: 42.4px 10px;
     flex-direction: column;

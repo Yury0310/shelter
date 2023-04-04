@@ -45,7 +45,7 @@
 
 @media (min-width: 768px) and (max-width: 1279px) {
   .donation .container {
-    padding: 80px 131px 100px 132px;
+    padding: 74px 131px 100px 132px;
     flex-direction: column;
     gap: 60px;
     justify-content: center;
@@ -57,9 +57,9 @@
     width: 380px;
   }
 }
-@media (min-width: 320px) and (max-width: 767px) {
+@media (min-width: 320px) and (max-width: 767.98px) {
   .donation .container {
-    padding: 42px 10px;
+    padding: 29px 10px;
     flex-direction: column;
     gap: 42px;
     justify-content: center;
