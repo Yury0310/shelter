@@ -8,6 +8,12 @@
   transition: 0.5s;
   scroll-behavior: smooth;
 }
+html {
+  overflow-x: hidden;
+}
+body {
+  overflow-x: hidden;
+}
 body {
   display: flex;
   flex-direction: column;
