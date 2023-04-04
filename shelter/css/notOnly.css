@@ -91,7 +91,7 @@
     height: 593px;
   }
 }
-@media (min-width: 320px) and (max-width: 767px) {
+@media (min-width: 320px) and (max-width: 767.98px) {
   .not_only {
     height: 822px;
   }
