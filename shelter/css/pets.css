@@ -111,8 +111,6 @@
   border: 2px solid #f1cdb3;
   cursor: pointer;
   top: 38%;
-
-  transform: "translate(-50%,-50%)";
 }
 .slider button:hover {
   border: solid #fddcc4;
