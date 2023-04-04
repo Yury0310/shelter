@@ -1,0 +1,112 @@
+.pop-up {
+  display: inline-block;
+  position: relative;
+  background-color: transparent;
+  border-radius: 9px;
+  /* margin: 0 auto; */
+}
+.pop-up_content {
+  margin-top: 52px;
+  background-color: #fafafa;
+  display: flex;
+  gap: 35px;
+  width: 900px;
+  border-radius: 9px;
+}
+.pop-up_img {
+  border-radius: 9px 0px 0px 9px;
+}
+.pop-up_img img {
+  display: block;
+
+  width: 500px;
+  border-radius: 9px 0px 0px 9px;
+}
+.pop-up_pet_info h3 {
+  text-align: start;
+  margin-top: 50px;
+  margin-bottom: 10px;
+
+  font-family: "Georgia";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 35px;
+  line-height: 130%;
+
+  letter-spacing: 0.06em;
+}
+.pop-up_pet_info h4 {
+  margin-bottom: 40px;
+
+  font-family: "Georgia";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 115%;
+
+  letter-spacing: 0.06em;
+}
+.pop-up_pet_info p {
+  width: 350px;
+  margin-bottom: 40px;
+  font-family: "Georgia";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 110%;
+  /* or 17px */
+
+  letter-spacing: 0.06em;
+}
+.pop-up_pet_info ul h5 {
+  font-family: "Georgia";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 110%;
+  /* identical to box height, or 17px */
+
+  letter-spacing: 0.06em;
+}
+.pop-up_pet_info li {
+}
+.pop-up_pet_info li {
+  margin-bottom: 12px;
+}
+.li_item {
+  display: flex;
+  font-family: "Georgia";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 110%;
+  /* identical to box height, or 17px */
+
+  letter-spacing: 0.06em;
+  list-style: circle;
+  list-style-position: inside;
+}
+.li_item::before {
+  content: "•";
+  color: #f1cdb3;
+  margin-right: 10px;
+  align-items: center;
+}
+
+.close-btn button {
+  position: absolute;
+  background: transparent;
+  width: 52px;
+  height: 52px;
+  border-radius: 100%;
+  border: 2px solid #f1cdb3;
+  cursor: pointer;
+  right: -49px;
+  background-image: url(../assets/img/Close.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.close-btn button:hover {
+  border: solid #fddcc4;
+  background-color: #fddcc4;
+}

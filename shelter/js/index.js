@@ -8,3 +8,11 @@ console.log(`Страница Main (60):\n
 6. Вёрстка соответствует макету +15\n
 7. Требования к css +4\n
 8. Интерактивность элементов +14`);
+import { pets_info } from "./pets_info.js";
+const petCards = document.querySelectorAll(".pet_card_item");
+console.log(petCards);
+pets_info.forEach((pet_info) => {
+  petCards.forEach((card) => {
+    card.addEventListener("click", () => {});
+  });
+});
