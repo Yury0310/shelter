@@ -149,7 +149,7 @@
     top: 44%;
   }
 }
-@media (min-width: 320px) and (max-width: 767px) {
+@media (min-width: 320px) and (max-width: 767.98px) {
   .pets .container {
     padding: 42px 10px;
     display: flex;
