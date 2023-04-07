@@ -58,3 +58,7 @@
 .navigation li:nth-child(1) {
   border-bottom: 3px solid #f1cdb3;
 }
+
+body.lock {
+  overflow: hidden;
+}

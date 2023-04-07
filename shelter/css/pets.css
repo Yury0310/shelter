@@ -31,12 +31,13 @@
 .pet_cards {
   position: relative;
   display: flex;
-  gap: 90px;
+  gap: 98px;
   padding-bottom: 63px;
+  overflow: hidden;
 }
 .pet_card_item {
   cursor: pointer;
-  margin: -7px -16px 0 16px;
+  margin: 25px -16px 0 16px;
   text-align: center;
   width: 270px;
   height: 435px;
