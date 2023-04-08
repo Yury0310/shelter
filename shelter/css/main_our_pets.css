@@ -33,6 +33,9 @@ h5 {
 a {
   text-decoration: none;
 }
+body.lock {
+  overflow: hidden;
+}
 .container {
   width: 1280px;
   margin: 0 auto;
