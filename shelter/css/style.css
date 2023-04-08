@@ -5,6 +5,7 @@
 @import url(./help.css);
 @import url(./donation.css);
 @import url(./footer.css);
+@import url(./pop-up.css);
 * {
   box-sizing: border-box;
   margin: 0;
