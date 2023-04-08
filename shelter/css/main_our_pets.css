@@ -1,5 +1,6 @@
 @import url(./footer.css);
 @import url(./pets.css);
+@import url(./pop-up.css);
 
 * {
   box-sizing: border-box;
@@ -86,7 +87,7 @@ a {
 .navigation a:hover {
   color: #292929;
 }
-.navigation .active {
+.navigation .Active {
   color: #292929;
 
   cursor: default;
@@ -100,7 +101,7 @@ a {
   background-size: 100%;
 }
 .main_our_pets .container {
-  padding: 80px 40px 100px;
+  padding: 80px 15px 100px;
   display: flex;
   flex-direction: column;
   gap: 60px;
@@ -113,8 +114,11 @@ a {
 .pet_cards {
   display: flex;
   flex-wrap: wrap;
+  height: 1000px;
+  align-items: center;
   gap: 30px 40px;
   padding-bottom: 0;
+  justify-content: center;
 }
 .pet_card_item {
   margin: 0;
@@ -137,23 +141,21 @@ a {
   font-size: 20px;
   line-height: 115%;
   letter-spacing: 0.06em;
-  color: #292929;
 }
-.navigation_pets button:nth-child(1),
-.navigation_pets button:nth-child(2) {
-  border: 2px solid #cdcdcd;
-  color: #cdcdcd;
-}
+
 .navigation_pets button:nth-child(3) {
   background-color: #f1cdb3;
   border: 2px solid #f1cdb3;
 }
 
-.navigation_pets button:nth-child(4),
-.navigation_pets button:nth-child(5) {
+.unActive {
+  border: 2px solid #cdcdcd;
+  color: #cdcdcd;
+}
+.Active {
   border: 2px solid #f1cdb3;
 }
-.navigation_pets button:nth-child(4):hover,
-.navigation_pets button:nth-child(5):hover {
+
+.Active.hover {
   background-color: #f1cdb3;
 }

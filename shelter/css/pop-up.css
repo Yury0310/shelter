@@ -8,7 +8,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  /* border-radius: 9px; */
+
   transition: 0.3s;
 }
 .pop-up_content {
@@ -60,7 +60,6 @@
   font-weight: 400;
   font-size: 15px;
   line-height: 110%;
-  /* or 17px */
 
   letter-spacing: 0.06em;
 }
@@ -75,7 +74,6 @@
   font-weight: 400;
   font-size: 15px;
   line-height: 110%;
-  /* identical to box height, or 17px */
 
   letter-spacing: 0.06em;
   list-style: circle;
@@ -110,4 +108,49 @@
 .close-btn button.hover {
   border: solid #fddcc4;
   background-color: #fddcc4;
+}
+
+@media (min-width: 768px) and (max-width: 1279px) {
+  .pop-up_content {
+    margin-top: 0;
+    gap: 0;
+    width: 630px;
+  }
+  .pop-up_img img {
+    width: 350px;
+  }
+  .pop-up_pet_info h3 {
+    margin-top: 10px;
+  }
+  .pop-up_pet_info h4 {
+    margin-bottom: 20px;
+  }
+  .pop-up_pet_info p {
+    width: 260px;
+    margin-bottom: 20px;
+    font-size: 13px;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 767.98px) {
+  .pop-up_content {
+    width: 260px;
+  }
+  .pop-up_img {
+    display: none;
+  }
+  .pop-up_pet_info h3 {
+    text-align: center;
+    margin-top: 10px;
+  }
+  .pop-up_pet_info h4 {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  .pop-up_pet_info p {
+    margin-left: 10px;
+    width: 220px;
+    margin-bottom: 20px;
+    font-size: 13px;
+  }
 }
