@@ -38,15 +38,15 @@ function showCards() {
       pop_up.className = "pop-up";
       document.body.appendChild(pop_up);
 
+      const popUpContent = document.createElement("div");
+      popUpContent.className = "pop-up_content";
+      pop_up.appendChild(popUpContent);
+
       const close_div = document.createElement("div");
       close_div.className = "close-btn";
       const close_btn = document.createElement("button");
       close_div.appendChild(close_btn);
-      pop_up.appendChild(close_div);
-
-      const popUpContent = document.createElement("div");
-      popUpContent.className = "pop-up_content";
-      pop_up.appendChild(popUpContent);
+      popUpContent.appendChild(close_div);
 
       const popUpImg = document.createElement("div");
       popUpImg.className = "pop-up_img";

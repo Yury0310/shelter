@@ -12,6 +12,7 @@
   transition: 0.3s;
 }
 .pop-up_content {
+  position: relative;
   margin-top: 52px;
   background-color: #fafafa;
   display: flex;
@@ -86,16 +87,18 @@
   align-items: center;
 }
 
-.close-btn button {
+.close-btn {
   position: absolute;
+  top: -55px;
+  right: -40px;
+}
+.close-btn button {
   background: transparent;
   width: 52px;
   height: 52px;
   border-radius: 100%;
   border: 2px solid #f1cdb3;
   cursor: pointer;
-  right: 265px;
-  top: 90px;
   background-image: url(../assets/img/Close.png);
   background-repeat: no-repeat;
   background-position: center;
