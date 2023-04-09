@@ -39,7 +39,7 @@ function showCards() {
     pet_card.appendChild(button);
 
     pet_card.addEventListener("click", () => {
-      document.body.classList.add("lock");
+      document.body.classList.add("lock1");
 
       const pop_up = document.createElement("div");
       pop_up.className = "pop-up";
@@ -111,8 +111,11 @@ function showCards() {
       });
 
       pop_up.addEventListener("click", () => {
-        if (!popUpContent.contains(event.target)) {
-          document.body.classList.remove("lock");
+        if (
+          !popUpContent.contains(event.target) ||
+          close_btn.contains(event.target)
+        ) {
+          document.body.classList.remove("lock1");
           pop_up.remove();
         }
       });

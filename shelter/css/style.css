@@ -19,6 +19,13 @@ body {
   justify-content: space-between;
   /* height: 100vh; */
 }
+body.lock {
+  overflow: hidden;
+}
+body.lock1 {
+  overflow: hidden;
+}
+
 a {
   text-decoration: none;
 }
@@ -27,12 +34,7 @@ a {
   margin: 0 auto;
   position: relative;
 }
-html {
-  overflow-x: hidden;
-}
-body {
-  overflow-x: hidden;
-}
+
 h3 {
   font-family: "Georgia";
   font-style: normal;
