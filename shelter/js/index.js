@@ -1,4 +1,3 @@
-
 console.log(`Итого: 94`);
 
 import { pets } from "./pets_info.js";
@@ -46,15 +45,15 @@ function showCards() {
       pop_up.className = "pop-up";
       document.body.appendChild(pop_up);
 
+      const popUpContent = document.createElement("div");
+      popUpContent.className = "pop-up_content";
+      pop_up.appendChild(popUpContent);
+
       const close_div = document.createElement("div");
       close_div.className = "close-btn";
       const close_btn = document.createElement("button");
       close_div.appendChild(close_btn);
-      pop_up.appendChild(close_div);
-
-      const popUpContent = document.createElement("div");
-      popUpContent.className = "pop-up_content";
-      pop_up.appendChild(popUpContent);
+      popUpContent.appendChild(close_div);
 
       const popUpImg = document.createElement("div");
       popUpImg.className = "pop-up_img";
@@ -186,4 +185,3 @@ SHELTER-PART2\n
 10.Верстка обеих страниц валидная +8
 Итого: 100\n
 `);
-
