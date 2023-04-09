@@ -127,7 +127,7 @@ body.lock {
 .pet_cards {
   display: flex;
   flex-wrap: wrap;
-  height: 1000px;
+  height: 930px;
   align-items: center;
   gap: 30px 40px;
   padding-bottom: 0;
