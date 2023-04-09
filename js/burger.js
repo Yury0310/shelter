@@ -10,6 +10,7 @@ if (iconMenu) {
     iconMenu.classList.toggle("active");
     menuBody.classList.toggle("active");
     document.body.classList.toggle("lock");
+
     if (!iconMenu.classList.contains("active")) {
       overlay.remove();
     } else {
@@ -22,6 +23,7 @@ if (iconMenu) {
 document.addEventListener("click", () => {
   if (!menuBody.contains(event.target) && !iconMenu.contains(event.target)) {
     document.body.classList.remove("lock");
+
     iconMenu.classList.remove("active");
     menuBody.classList.remove("active");
     overlay.remove();
@@ -30,6 +32,7 @@ document.addEventListener("click", () => {
 navA.forEach((link) => {
   link.addEventListener("click", () => {
     document.body.classList.remove("lock");
+
     iconMenu.classList.remove("active");
     menuBody.classList.remove("active");
     overlay.remove();

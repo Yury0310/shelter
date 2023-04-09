@@ -9,12 +9,7 @@
   transition: 0.5s;
   scroll-behavior: smooth;
 }
-html {
-  overflow-x: hidden;
-}
-body {
-  overflow-x: hidden;
-}
+
 body {
   display: flex;
   flex-direction: column;
@@ -40,6 +35,9 @@ a {
   text-decoration: none;
 }
 body.lock {
+  overflow: hidden;
+}
+body.lock1 {
   overflow: hidden;
 }
 .container {
@@ -284,9 +282,7 @@ body.lock {
     font-size: 32px;
     line-height: 160%;
   }
-  body.lock {
-    overflow: hidden;
-  }
+
   .pet_cards {
     display: block;
     overflow: hidden;
