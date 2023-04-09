@@ -31,7 +31,7 @@
 .pet_cards {
   position: relative;
   display: flex;
-  gap: 83px;
+  gap: 86px;
   padding-bottom: 63px;
   overflow: hidden;
 }
@@ -112,6 +112,7 @@
   background-image: url(../assets/img/Arrow.png);
   background-repeat: no-repeat;
   background-position: center;
+  left: 20px;
 }
 .slider button:last-child {
   background-image: url(../assets/img/Arrow1.png);
